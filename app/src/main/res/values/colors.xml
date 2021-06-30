@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yello_musterd_i">#FFD819</color>
+    <color name="y">#F7C80A</color>
+    <color name="test">#FFBF01</color>
+    <color name="auth">#000000</color>
+    <color name="yellow_musterd">#E3B100</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#1C1C1C</color>
+    <color name="dark">#000000</color>
+    <color name="white">#F8F8FF</color>
+    <color name="grey">#C6C6C6</color>
+    <color name="lightGrey">#F2F2F2</color>
+    <color name="darkGrey">#707070</color>
+    <color name="blue">#1B75B5</color>
+    <color name="white2">#ffffff</color>
+    <color name="white3">#F4F4F4</color>
+
+
+    <color name="colorPrimary">#5770f3</color>
+    <color name="colorPrimaryDark">#5770f3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gradient_start">#5770f3</color>
+    <color name="gradient_end">#8e5aeb</color>
+    <color name="profile_desc">#D1D1FF</color>
+    <color name="bg_meta_container">#000000</color>
+    <color name="profile_default_tint">#e0e0e0</color>
+
+</resources>
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+<!--<color name="yellow_musterd">#F7C80A</color>-->
+<!--<color name="purple_700">#F7C80A</color>-->
+<!--<color name="teal_200">#FF03DAC5</color>-->
+<!--<color name="brown">#8F5603</color>-->
+<!--<color name="black">#FF000000</color>-->
+<!--<color name="white">#FFFFFFFF</color>-->
+<!--</resources>-->

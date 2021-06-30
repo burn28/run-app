@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "343588357304",
+    "firebase_url": "https://practise-doneed-default-rtdb.firebaseio.com",
+    "project_id": "practise-doneed",
+    "storage_bucket": "practise-doneed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343588357304:android:6d72a624543d8aec10a04d",
+        "android_client_info": {
+          "package_name": "com.example.practisedoneed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343588357304-oaiq64ec5k7u4vmiqks25fbf3tojbeag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOLmCRjuA7sRuwq39VaeI1lt7Rji1V8v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343588357304-oaiq64ec5k7u4vmiqks25fbf3tojbeag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

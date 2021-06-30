@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_donate"
+    tools:context=".fragment.donateFragment">
+
+    <include
+        layout="@layout/apptoolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="?attr/actionBarSize"
+        tools:context=".donate">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="80dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:background="@drawable/button_backgroynd"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_launcher_foreground"
+                    android:id="@+id/image_add"
+                    />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/choose_image_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Image"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                />
+
+            <EditText
+                android:id="@+id/Tittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Tittle"
+                android:textColorHint="@color/grey"
+                android:maxLines="5"
+                android:background="@drawable/text_background"
+                android:padding="10dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:elevation="2dp"
+                />
+
+            <EditText
+                android:id="@+id/Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Description"
+                android:textColorHint="@color/grey"
+                android:background="@drawable/text_background"
+                android:padding="10dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                android:maxLines="5"
+                android:elevation="2dp"
+                />
+
+            <EditText
+                android:id="@+id/Quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Quantity"
+                android:textColorHint="@color/grey"
+                android:maxLines="5"
+                android:background="@drawable/text_background"
+                android:padding="10dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:elevation="2dp"
+                />
+
+            <Spinner
+                android:id="@+id/categories_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginEnd="21dp"
+                android:padding="10dp"
+                android:prompt="@string/categories"
+                android:elevation="2dp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/text_background"
+                />
+
+            <Spinner
+                android:id="@+id/state_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:prompt="@string/state"
+                android:elevation="2dp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/text_background"
+                />
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

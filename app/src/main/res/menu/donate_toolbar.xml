@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/donate_now"
+        android:title="Post"
+        android:icon="@drawable/ic_baseline_done_outline_24"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/update_now"
+        android:title="UPDATE"
+        app:showAsAction="ifRoom|withText"
+        android:visible="false"
+        />
+
+</menu>
